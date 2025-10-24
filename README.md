@@ -34,3 +34,10 @@ Encontradas as vulnerabilidades, iniciei o o processo de invasão do sistemas po
 
 <img width="635" height="230" alt="invasao png" src="https://github.com/user-attachments/assets/02a14128-052f-483b-9257-6d5b822f56db" />
 
+## Fase 4: Pós-Exploração (Acesso Obtido)
+**whoami
+  id**
+
+Como prova de acesso, os comandos 'whoami' e 'id' foram executados, confirmando que o shell foi obtido com privilégios de root e controle total sobre o sistema-alvo.
+
+<img width="647" height="93" alt="root png" src="https://github.com/user-attachments/assets/84bc62ab-28bc-4cf7-a61b-46d14f869a99" />
