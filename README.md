@@ -3,7 +3,9 @@
 Este é um relatório detalhado do teste de invasão realizado na máquina virtual Metasploitable 2, dentro de um ambiente de laboratório controlado.
 
 **Máquina-Alvo:** Metasploitable 2
+
 **Máquina de Ataque:** Kali Linux
+
 **Objetivo:** Identificar vulnerabilidades, explorá-las para obter acesso inicial e escalar privilégios.
 
 ---
