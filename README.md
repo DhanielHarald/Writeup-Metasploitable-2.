@@ -12,8 +12,6 @@ Este é um relatório detalhado do teste de invasão realizado na máquina virtu
 
 O primeiro passo foi identificar as portas e serviços rodando na máquina-alvo. Utilizei a ferramenta `nmap` com os seguintes comandos:
 
-```bash
-# Cole aqui o comando nmap que você usou
 nmap -sV -p- 192.168.56.102
 
 Resultados do Nmap: O scan revelou várias portas abertas. A mais crítica parecia ser a porta 21 (FTP), que está rodando uma versão antiga: vsftpd 2.3.4.
